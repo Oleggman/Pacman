@@ -1,0 +1,47 @@
+﻿n levels
+first 10 levels installs to db when setup program
+
+game_info
+id_game
+level
+weight
+height 
+
+player_info
+id_game
+hp
+score
+posX
+posY
+weapon_type
+
+ball_info
+level
+type //0 - +1 score 1 - +5 score 2 - - 5 score 3 - -1 hp 
+
+texture_info
+level
+posX
+posY
+weight
+height
+type
+
+enemy_info
+level
+move_type
+hp
+live_type
+dmg
+speed
+
+weapon_info
+id
+dmg 
+dmg_radius
+bullets
+timeout
+
+sound_settings
+volume
+is_enable
